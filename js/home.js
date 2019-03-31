@@ -57,11 +57,11 @@ function initHome() {
 
 	$("#panel").hide();
 	$("#home").show();
-	$("#home h3 em").append( " - " + new Date().getFullYear() );
+	/*$("#home h3 em").append( " - " + new Date().getFullYear() );*/
 	
 	$('#help').fadeOut("slow");
 	
-	var ctx = null;
+	/*var ctx = null;
 	var canvas = document.getElementById('canvas-home-title-pacman');
 	canvas.setAttribute('width', '115');
 	canvas.setAttribute('height', '100');
@@ -124,7 +124,7 @@ function initHome() {
 	ctx.fillStyle = GHOST_CLYDE_COLOR;
 	drawHelperGhost(ctx, 25, 25, 1, 0, 0, 0);
 	
-	startPresentation();
+	startPresentation();*/
 }
 
 function startPresentation() { 
